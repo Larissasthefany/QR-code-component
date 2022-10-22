@@ -7,21 +7,23 @@
 }
 
 body{
-    background-color: hsl(212, 45%, 89%);;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
 }
 
 main{
     margin: auto;
     margin-top: 50px;
     width: 270px;
-    height: 410px;
+    height: 450px;
     border-radius: 15px;
     background-color:hsl(0, 0%, 100%);
 }
 
 .card{
     display: flex;
-    padding: 10px;
+    padding: 15px;
+    margin: 5px;
     justify-content: center;
     
 }
@@ -32,17 +34,16 @@ img{
     border-radius:13px ;
 }
 
-h3{
-    font-family: 'Outfit', sans-serif;
+h1{
     color: hsl(218, 44%, 22%);
     text-align: center;
-    padding: 13px;
+    font-size: 1.3em;
+    padding: 10px;
 }
 
 p{
-    font-size: 15px;
+    font-size: 1em;
     color: hsl(220, 15%, 55%);
     text-align: center;
     margin-top: 13px;
-
 }
